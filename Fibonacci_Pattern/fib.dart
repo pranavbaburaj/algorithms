@@ -1,3 +1,5 @@
+import "dart:io";
+
 int fib(int n) {
   var arr = [];
   int i = 0;
@@ -20,6 +22,8 @@ int fibo(int n) {
 }
 
 void main() {
-  print(fib(6));
-  print(fibo(6));
+  print("Enter the number")
+  var data = int.parse(stdin.readLineSync().toString());
+  print(fib(data));
+  print(fibo(data))
 }
