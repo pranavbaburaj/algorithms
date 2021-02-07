@@ -17,7 +17,7 @@ def get_sums(arr):
 def get_maximum(arr, sums):
     data = []
     for x in range(2):
-        largest = max(sums)
+#         largest = max(sums)
         i = sums.index(max(sums))
         sums[i] = 0
         data.append(i)
