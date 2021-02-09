@@ -8,4 +8,11 @@ Algorithms is a  collection of solutions for some problems
 	 - Leetcode
 	 - hackerearth
 	 - codechef
+	 - And my thoughts
+	
+
+<hr>
+<div align="center">
+	by Pranav Baburaj
+</div>
 
