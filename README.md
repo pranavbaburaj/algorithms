@@ -3,7 +3,7 @@
 ## What is it ?
 
 Algorithms is a  collection of solutions for some problems
-
+<hr>
  - ### Source
 	 - Leetcode
 	 - hackerearth
