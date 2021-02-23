@@ -14,5 +14,5 @@ function fibonacci(data:Question):number {
 		}
 		x++;
 	}
-	return pattern
+	return pattern[x-1]
 }
