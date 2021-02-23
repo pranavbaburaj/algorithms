@@ -2,6 +2,13 @@ package fib
 
 import "fmt"
 
+func fib(data int) (int){
+  if n <= 1 {
+        return n
+    }
+  return fib(data - 1) + fib(data - 2)
+}
+
 func solve(data int) (int)
 {
   arr := [data]int{}
