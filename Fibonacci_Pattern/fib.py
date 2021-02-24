@@ -9,4 +9,4 @@ def fibonacci(data: int):
         else:
             sequence.append(sequence[index - 1] + sequence[index - 2])
         index += 1
-    return sequence
+    return sequence[index - 1]
