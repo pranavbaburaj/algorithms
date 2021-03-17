@@ -11,7 +11,7 @@ Algorithms is a  collection of solutions for some problems
 <table>
 	<tr>
 		<td>
-			<a href="https://github.com/IndianOpenSourceFoundation/dynamic-cli/graphs/contributors">
+			<a href="https://github.com/pranavbaburaj/algorithms/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=IndianOpenSourceFoundation/dynamic-cli" />
 </a>
 		</td>
