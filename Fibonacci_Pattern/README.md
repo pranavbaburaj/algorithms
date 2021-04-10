@@ -15,7 +15,7 @@ Given  `n`, calculate  `F(n)`.
 
 
 ## Solution
-```
+```python
 arr[]
 
 x = 0
@@ -28,7 +28,7 @@ arr.append(ar[x - 1] + arr[x - 2])
 
 
 **Input**:*5*
-```
+```python
 arr  = []
 x = 0
 
