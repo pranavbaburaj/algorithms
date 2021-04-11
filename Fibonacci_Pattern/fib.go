@@ -1,34 +1,34 @@
-package fib
+package main
 
-import "fmt"
+import (
+    "fmt"
+    "os"
+    "strconv"
+)
 
-func fib(data int) (int){
-  if n <= 1 {
-        return n
+func fib(n int) {
+    a, b := 0, 1
+    for i := 0; i < n; i++ {
+        a, b = b, a+b
+        fmt.Printf("%d: %d\n", i+1, a)
     }
-  return fib(data - 1) + fib(data - 2)
 }
 
-func solve(data int) (int)
-{
-  arr := [data]int{}
-  var i int = 0
-  var index int = 0
-  while i < data {
-    if i == 0 || i == 1 {
-      arr[index] = i
-    } else {
-      arr[index] = arr[index - 1] + arr[index - 2]
+const msg = "Usage: please input the count of fibonacci numbers to output"
+
+func main() {
+    if len(os.Args) == 1 {
+        fmt.Println(msg)
+        return
     }
-    i += 1
-    index += 1
-  }
-  
-  return arr[data - 1]
-}
-
-func main()
-{
-  solve(5)
-
+    if os.Args[1] == "" {
+        fmt.Println(msg)
+        return
+    }
+    n, err := strconv.Atoi(os.Args[1])
+    if err != nil {
+        fmt.Println(msg)
+        return
+    }
+    fib(n)
 }
